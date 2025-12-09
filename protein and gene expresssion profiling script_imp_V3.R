@@ -882,7 +882,7 @@ dotplot(gg)
 head(kk)
 dotplot(kk)
 barplot(kk)
-browseKEGG(kk, 'hsa04110')
+browseKEGG(kk, 'hsa04110')    ###hsa04110 ##hsa05200
 library("pathview")
 hsa04110 <- pathview(gene.data  = geneList,
                      pathway.id = "hsa04110",
@@ -948,4 +948,5 @@ GetSeqLength(Accs, directorypath = NULL)
 GetpdbStructure(Accs, directorypath = NULL)
 GetSubcellular_location(Accs, directorypath = NULL)
 GetStructureInfo(Accs, directorypath = NULL)
+
 
